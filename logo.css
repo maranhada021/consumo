@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #00e1ff; /* Set the background color to blue */
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+select, button {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: px 20px;
+}
+
+.minha-imagem {
+ position: relative;
+ bottom: 120px;
+ left: 775px;
+}
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%; /* Ajuste adicional para tamanhos de tela menores */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        max-width: 100%; /* Ajuste ainda mais agressivo para dispositivos pequenos */
+    }
+}
